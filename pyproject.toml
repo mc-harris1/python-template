@@ -1,0 +1,10 @@
+[project]
+name = "python-devops-example"
+version = "0.1.0"
+authors = [
+    {name = "MC Harris", email = "mark.c.harris@icloud.com"}
+]
+description = "An evolving DevOps showcase Python project best practices."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
