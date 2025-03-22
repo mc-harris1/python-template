@@ -7,7 +7,6 @@ repos:
     - id: check-toml
     - id: check-yaml
     - id: debug-statements
-    - id: name-tests-test
 
 - repo: https://github.com/astral-sh/ruff-pre-commit
   # Ruff version.
@@ -23,3 +22,5 @@ repos:
   rev: '1.7.4' # Update me!
   hooks:
     - id: bandit
+      args: ["-c", "pyproject.toml"]
+      additional_dependencies: ["bandit[toml]"]

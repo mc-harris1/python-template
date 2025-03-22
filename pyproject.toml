@@ -106,3 +106,12 @@ docstring-code-line-length = "dynamic"
 exclude_dirs = ["tests", "path/to/file"]
 tests = ["B201", "B301"]
 skips = ["B101", "B601"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+    "integration",
+    "e2e",
+]
