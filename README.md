@@ -1,1 +1,1 @@
-# python-devops-example
+# python-template
