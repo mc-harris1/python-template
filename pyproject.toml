@@ -1,10 +1,10 @@
 [project]
-name = "python-devops-example"
+name = "python-template"
 version = "0.1.0"
 authors = [
     {name = "MC Harris", email = "mark.c.harris@icloud.com"}
 ]
-description = "An evolving showcase of Python project-specific DevOps practices."
+description = "An evolving Python project template."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
